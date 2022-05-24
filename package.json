@@ -1,5 +1,5 @@
 {
-  "name": "pngjs",
+  "name": "@wowkster/pngjs",
   "version": "6.0.0",
   "description": "PNG encoder/decoder in pure JS, supporting any bit size & interlace, async & sync with full test suite.",
   "contributors": [
@@ -16,7 +16,7 @@
     "toriningen",
     "Eugene Kulabuhov"
   ],
-  "homepage": "https://github.com/lukeapage/pngjs",
+  "homepage": "https://github.com/wowkster/pngjs",
   "keywords": [
     "PNG",
     "decoder",
@@ -34,8 +34,8 @@
   },
   "main": "./lib/png.js",
   "directories": {
-    "lib": "lib",
     "example": "examples",
+    "lib": "lib",
     "test": "test"
   },
   "files": [
@@ -54,11 +54,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lukeapage/pngjs.git"
+    "url": "git://github.com/wowkster/pngjs.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukeapage/pngjs/issues"
+    "url": "https://github.com/wowkster/pngjs/issues"
   },
   "devDependencies": {
     "browserify": "17.0.0",
@@ -73,5 +73,6 @@
     "serve-static": "1.14.1",
     "tap-dot": "2.0.0",
     "tape": "5.0.1"
-  }
+  },
+  "author": "Wowkster"
 }
