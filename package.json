@@ -61,6 +61,7 @@
     "url": "https://github.com/wowkster/pngjs/issues"
   },
   "devDependencies": {
+    "@types/pngjs": "^6.0.1",
     "browserify": "17.0.0",
     "buffer-equal": "1.0.0",
     "codecov": "3.7.1",
